@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE marksheet [
+  <!ELEMENT marksheet (marksheet1*)>
+  <!ELEMENT marksheet1 ((fname|firstname),lname,subject,grade,percentage,position)>
+  <!ELEMENT fname (#PCDATA)>
+  <!ELEMENT lname (#PCDATA)>
+  <!ELEMENT subject (#PCDATA)>
+  <!ELEMENT grade (#PCDATA)>
+  <!ELEMENT firstname (#PCDATA)>
+  <!ELEMENT percentage (#PCDATA)>
+  <!ELEMENT position (#PCDATA)>
+  <!ATTLIST marksheet1 id CDATA #REQUIRED>
+ 
+  <!ENTITY xyz 'chuntiyan'> 
+]>
+
+<marksheet>
+<marksheet1 id="cash">
+<firstname>yahya</firstname>
+<lname>shahab</lname>
+<subject>maths</subject>
+<grade>A</grade>
+<percentage>79%</percentage>
+<position>&xyz;</position>
+</marksheet1>
+
+
+<marksheet1 id="yahya">
+<firstname>fahad</firstname>
+<lname>khan</lname>
+<subject>maths</subject>
+<grade>B</grade>
+<percentage>68%</percentage>
+<position>&xyz;</position>
+</marksheet1>
+
+
+<marksheet1 id="uzair">
+<firstname>uzair</firstname>
+<lname>sadiq</lname>
+<subject>maths</subject>
+<grade>B</grade>
+<percentage>62%</percentage>
+<position>&xyz;</position>
+</marksheet1>
+
+
+<marksheet1 id="wamiq">
+<firstname>abdullah</firstname>
+<lname>razzaq</lname>
+<subject>maths</subject>
+<grade>A</grade>
+<percentage>72%</percentage>
+<position>&xyz;</position>
+</marksheet1>
+
+
+<marksheet1 id="pc">
+<firstname>muhammad</firstname>
+<lname>wamiq</lname>
+<subject>maths</subject>
+<grade>B</grade>
+<percentage>65%</percentage>
+<position>&xyz;</position>
+</marksheet1>
+
+</marksheet>
